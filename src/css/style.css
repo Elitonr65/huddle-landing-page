@@ -1,0 +1,101 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(../images/bg-desktop.svg) center center no-repeat var(--background-color);
+    height: 100vh;
+    background-size: cover;
+}
+
+.container .app {
+    display: flex;
+}
+
+.container .logo img {
+    width: 212px;
+    margin: 55px 0 0 70px;
+}
+
+
+.container .image-app {
+    display: flex;
+    padding-top: 6%;
+    color: var(--colors-neutral);
+    gap: 5rem;
+    margin: 5px 0 0 70px;
+}
+
+
+.container .informacoes .title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--colors-neutral);
+    text-transform: capitalize;
+    max-width: 450px;
+    padding-top: 10%;
+    margin: 70px 0 0 55px;
+
+}
+
+.container .informacoes .descricao {
+    font-weight: 400;
+    color: var(--colors-neutral);
+    max-width: 550px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 3%;
+    margin: 3px 0 0 55px;
+    line-height: 1.5em;
+    opacity: 0.8;
+}
+
+.container .app .informacoes .btn {
+    color: var(--background-color);
+    padding: 0.9em 3.7em;
+    background-color: var(--colors-neutral);
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 30px;
+    margin: 24px 0 0 59px;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .app .informacoes .btn:hover {
+    color: var(--colors-neutral);
+    background-color: var(--soft-magenta);
+    box-shadow: 5px 5px 15px #4d1f70;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.container .rede-social {
+    display: flex;
+    justify-content: right;
+    gap: 1.5rem;
+    padding: 5%;
+}
+
+.container .rede-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: var(--colors-neutral);
+    border: 1px solid var(--colors-neutral);
+    border-radius: 50%;
+    width: 3.8rem;
+    height: 3.8rem;
+}
+
+.container .rede-social a:hover {
+    cursor: pointer;
+    color: var(--soft-magenta);
+    border: 1px solid var(--soft-magenta)
+}

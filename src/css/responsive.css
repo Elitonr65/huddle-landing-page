@@ -1,0 +1,85 @@
+@media(max-width: 768px) {
+    body {
+        background: url(../images/bg-mobile.svg) center center no-repeat var(--background-color);
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+    }
+
+
+
+    .container .logo img {
+        max-width: 35%;
+        margin: 10px 25px;
+    }
+
+    .container .app .image-app {
+        margin: 0 35px;
+    }
+
+    .container .app .image-app img {
+        display: flex;
+        max-width: 90%;
+        height: 90%;
+    }
+
+    .container .app {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .informacoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* .container .informacoes .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    } */
+
+    .container .informacoes .title {
+        font-size: 25px;
+        margin: 0 20px;
+        padding: 0;
+    }
+
+    .container .informacoes .descricao {
+        font-size: 15px;
+        margin: 0 20px;
+        padding: 0;
+    }
+
+    .container .app .informacoes .btn {
+        font-size: 14px;
+        height: 30px;
+        width: 150px;
+        margin: 15px 85px;
+        padding: 0;
+    }
+
+    .container .rede-social {
+        justify-content: center;
+        align-content: center;
+        max-width: 100%;
+    }
+
+    .container .rede-social a{
+        font-size: 1.1rem;
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+}
